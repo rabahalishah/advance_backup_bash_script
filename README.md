@@ -1,3 +1,6 @@
+# Special thing about this script:
+The coolest thing about this script is that it keeps your older versions of backup as well. This script has built using tool called rsync: 'rsync - a fast, versatile, remote (and local) file-copying tool'
+
 # How to use this backup script?
 
 Download the file or clone the repo:
@@ -16,5 +19,5 @@ sudo chmod +x backup_script.sh
 Running the script
 
 ```
-./backup_script <file>
+./backup_script <source_directory> <target_directory>
 ```
